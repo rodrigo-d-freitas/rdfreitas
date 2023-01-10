@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
   :host {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Poppins, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
     color: #333;
     box-sizing: border-box;
@@ -291,3 +291,34 @@
       visibility: hidden;
     }
   }
+
+/**
+  rdfreita's styles
+**/
+body {
+  font-family: Roboto, Poppins, sans-serif;
+}
+.logo {
+  width: 200px;
+}
+.nav-link{
+color: #313F49;
+text-transform: uppercase;
+}
+.nav-pills .nav-link.active, 
+.nav-pills .show > .nav-link {
+  color: #313F49;
+  background-color: #fff;
+  border-bottom: 2px solid #7BC411;
+  border-radius: 0;
+  padding-bottom: 2px;
+}
+.nav-link:focus, .nav-link:hover {
+  border-bottom: 2px solid #7BC411;
+  border-radius: 0;
+  padding-bottom: 2px;
+  color: #313F49;
+}
+a:visited {
+  color: #313F49;
+}

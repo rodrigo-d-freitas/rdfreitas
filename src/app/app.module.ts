@@ -10,6 +10,9 @@ import { ServicesComponent } from './pages/services/services.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { RouterModule } from '@angular/router';
+import { rootRouterConfig } from './app.routes';
+import { APP_BASE_HREF } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -24,9 +27,11 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    [RouterModule.forRoot(rootRouterConfig, {useHash: false})]
   ],
-  providers: [],
+  providers: [
+    {provide: APP_BASE_HREF, useValue: '/'}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

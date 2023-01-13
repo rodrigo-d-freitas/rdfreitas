@@ -1,0 +1,8 @@
+
+<p><input type="text" [(ngModel)]="nome" [disabled]="clique > 10"></p>
+<p><label>{{nome}}</label></p>
+
+<button [ngClass]="nome" (click)="aumentar()" [disabled]='clique > 10'>Button</button>
+<br><br><br><br><br><br><br>
+
+<p>Cliques = {{clique}}</p>

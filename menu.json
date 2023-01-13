@@ -1,0 +1,12 @@
+{
+    "menu": [
+     {
+        "nome": "Data-Binding",
+        "link": "/binding"
+     },
+     {
+        "nome": "Sobre mim",
+        "link": "/about"
+     }
+    ]
+}

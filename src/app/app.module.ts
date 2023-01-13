@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -13,6 +13,9 @@ import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { rootRouterConfig } from './app.routes';
 import { APP_BASE_HREF } from '@angular/common';
+import { DataBindingComponent } from './curso/data-binding/data-binding.component';
+import { RdfreitasService } from './services/rdfreitasService';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,13 +26,17 @@ import { APP_BASE_HREF } from '@angular/common';
     ServicesComponent,
     PortfolioComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    HttpClientModule,
     [RouterModule.forRoot(rootRouterConfig, {useHash: false})]
   ],
   providers: [
+    RdfreitasService,
     {provide: APP_BASE_HREF, useValue: '/'}
   ],
   bootstrap: [AppComponent]

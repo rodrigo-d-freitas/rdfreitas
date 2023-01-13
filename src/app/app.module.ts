@@ -16,6 +16,7 @@ import { APP_BASE_HREF } from '@angular/common';
 import { DataBindingComponent } from './curso/data-binding/data-binding.component';
 import { RdfreitasService } from './services/rdfreitasService';
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [

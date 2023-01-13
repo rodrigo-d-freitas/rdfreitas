@@ -1,10 +1,26 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Menu } from '../services/Menu';
+import { RdfreitasService } from '../services/rdfreitasService';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
 
+  constructor(private rdfreitasService : RdfreitasService) { }
+
+  public itensMenu: Menu[] = [];
+
+  ngOnInit() {
+    this.rdfreitasService.construirMenu()
+      .subscribe(
+        itens => {
+          this.itensMenu = itens;
+          console.log(itens);
+        },
+        error => console.log(error)
+      );
+  }
 }

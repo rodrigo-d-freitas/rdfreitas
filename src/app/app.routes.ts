@@ -4,6 +4,7 @@ import { AboutComponent } from "./pages/about/about.component";
 import { ServicesComponent } from "./pages/services/services.component";
 import { PortfolioComponent } from "./pages/portfolio/portfolio.component";
 import { ContactComponent } from "./pages/contact/contact.component";
+import { DataBindingComponent } from "./curso/data-binding/data-binding.component";
 
 export const rootRouterConfig: Routes = [
     {path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -11,5 +12,6 @@ export const rootRouterConfig: Routes = [
     {path: 'about', component: AboutComponent},
     {path: 'services', component: ServicesComponent},
     {path: 'portfolio', component: PortfolioComponent},
-    {path: 'contact', component: ContactComponent}
+    {path: 'contact', component: ContactComponent},
+    {path: 'binding', component: DataBindingComponent}
 ];

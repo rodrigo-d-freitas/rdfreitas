@@ -18,7 +18,6 @@ export class HeaderComponent implements OnInit {
       .subscribe(
         itens => {
           this.itensMenu = itens;
-          console.log(itens);
         },
         error => console.log(error)
       );

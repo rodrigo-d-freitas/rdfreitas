@@ -8,5 +8,10 @@
         "nome": "Sobre mim",
         "link": "/about"
      }
+     ,
+     {
+        "nome": "Contato",
+        "link": "/contact"
+     }
     ]
 }

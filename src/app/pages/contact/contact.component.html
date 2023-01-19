@@ -8,17 +8,26 @@
             <form novalidate [formGroup]="contactForm" (ngSubmit)="adicionarContato()">
                 <div class="row mb-3 col-md-4">
                     <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputEmail3" placeholder="Nome completo" formControlName="nome">
+                        <input type="text" class="form-control" id="nome" placeholder="Nome completo" formControlName="nome">
                     </div>
+                    <span class="text-danger" *ngIf="contactForm.get('nome')?.errors && (contactForm.get('nome')?.dirty || contactForm.get('nome')?.touched)">
+                        <p>Preencha o campo nome</p>
+                    </span>
                 </div>
                 <div class="row mb-3 col-md-4">
                     <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="E-mail" formControlName="email">
+                        <input type="email" class="form-control" id="email" placeholder="E-mail" formControlName="email">
                     </div>
+                    <span class="text-danger" *ngIf="contactForm.get('email')?.errors?.['required'] && (contactForm.get('email')?.dirty || contactForm.get('email')?.touched)">
+                        <p>Preencha o campo e-mail</p>
+                    </span>
+                    <span class="text-danger" *ngIf="contactForm.get('email')?.errors?.['email'] && (contactForm.get('email')?.dirty || contactForm.get('email')?.touched)">
+                        <p>Formato de e-mail inválido</p>
+                    </span>
                 </div>
                 <div class="row mb-3 col-md-4">
                     <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword3" placeholder="Senha" formControlName="senha">
+                    <input type="password" class="form-control" id="senha" placeholder="Senha" formControlName="senha">
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>        

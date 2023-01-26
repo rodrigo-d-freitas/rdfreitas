@@ -1,14 +1,15 @@
 <div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
-        <span class="fs-4">
-            <img src="../../assets/images/rdfreitas-logo.svg" alt="Rdfreitas" class="logo" />
-        </span>
-      </a>
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
+      <span class="fs-4">
+          <img src="../../assets/images/rdfreitas-logo.svg" alt="Rdfreitas" class="logo" />
+      </span>
+    </a>
 
-      <ul class="nav nav-pills">
-        <li *ngFor="let item of itensMenu" class="nav-item"><a routerLink="{{item.link}}" class="nav-link">{{item.nome}}</a></li>
-        
-      </ul>
-    </header>
+    <ul class="nav nav-pills">
+      <li *ngFor="let item of itensMenu" class="nav-item"><a routerLink="{{item.link}}" class="nav-link">{{item.nome}}</a></li>
+      
+    </ul>
+  </header>
+</div>
   

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
-import { Contacts } from 'src/app/models/Contacts';
+import { Contacts } from 'src/app/models/Contacts'; 
 
 @Component({
   selector: 'app-contact',
@@ -21,7 +21,7 @@ export class ContactComponent implements OnInit {
     this.contactForm = this.fb.group({
       nome: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
-      senha: ['']
+      senha: ['', [Validators.minLength(6), Validators.maxLength(15), Validators.required]]
     });
   }
 

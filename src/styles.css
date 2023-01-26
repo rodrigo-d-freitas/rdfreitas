@@ -296,7 +296,7 @@
   rdfreita's styles
 **/
 body {
-  font-family: Roboto, Poppins, sans-serif;
+  font-family: 'Roboto', 'Poppins', sans-serif;
 }
 .logo {
   width: 200px;
@@ -321,4 +321,75 @@ text-transform: uppercase;
 }
 a:visited {
   color: #313F49;
+}
+.rdfreitas-icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 5px;
+}
+.rdfreitas-title {
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 55px;
+}
+.rdfreitas-subtitle {
+  font-size: 120px;
+  display: block;
+  width: 345px;
+  word-break: break-all;
+  font-family: poppins;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -10px;
+}
+.rdfreitas-deco-retangulo{
+  display: block;
+  background-color: #7BC411;
+  margin-top: -15px;
+  margin-left: 9px;
+}
+.rdfreitas-deco-retangulo-25 { width: 25%; }
+.rdfreitas-deco-retangulo-50 { width: 50%; }
+.rdfreitas-deco-retangulo-75 { width: 75%; }
+.rdfreitas-deco-retangulo-100 { width: 100%; }
+
+.rdfreitas-height-1x { height: 4px; }
+.rdfreitas-height-2x { height: 8px; }
+.rdfreitas-height-3x { height: 12px; }
+.rdfreitas-height-4x { height: 16px; }
+.rdfreitas-height-5x { height: 20px; }
+
+.rdfreitas-margin-top-0  { margin-top: 0; }
+.rdfreitas-margin-top-1x { margin-top: 40px; }
+.rdfreitas-margin-top-2x { margin-top: 80px; }
+.rdfreitas-margin-top-3x { margin-top: 120px; }
+.rdfreitas-margin-top-4x { margin-top: 160px; }
+
+.rdfreitas-margin-left-0 { margin-left: 0;}
+.rdfreitas-margin-left-1x { margin-left: 40px; }
+.rdfreitas-margin-left-2x { margin-left: 80px; }
+.rdfreitas-margin-left-3x { margin-left: 120px; }
+.rdfreitas-margin-left-4x { margin-left: 160px; }
+
+.rdfreitas-c1 { color: #fafafa; }
+.rdfreitas-c2 { color: #e8e8e8; }
+.rdfreitas-c3 { color: #d6d6d6; }
+.rdfreitas-c4 { color: #c4c4c4; }
+.rdfreitas-c5 { color: #b3b3b3; }
+.rdfreitas-c6 { color: #a1a1a1; }
+.rdfreitas-c7 { color: #8f8f8f; }
+.rdfreitas-c8 { color: #7d7d7d; }
+.rdfreitas-c9 { color: #6b6b6b; }
+.rdfreitas-c10 { color: #595959; }
+.rdfreitas-c11 { color: #121212; }
+.rdfreitas-c12 { color: #363636; }
+.rdfreitas-c13 { color: #242424; }
+
+.rdfreitas-destaque {
+  font-weight: 500;
+  color: #7BC411;
+}
+
+.rdfreitas-skills span {
+  margin: 4px;
 }

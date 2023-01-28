@@ -391,6 +391,11 @@ a:visited {
 .rdfreitas-padding-top-03x  { padding-top: 12px; }
 .rdfreitas-padding-top-04x  { padding-top: 16px; }
 .rdfreitas-padding-top-05x  { padding-top: 20px; }
+.rdfreitas-padding-top-1x  { padding-top: 40px; }
+.rdfreitas-padding-top-2x  { padding-top: 80px; }
+.rdfreitas-padding-top-3x  { padding-top: 120px; }
+.rdfreitas-padding-top-4x  { padding-top: 160px; }
+.rdfreitas-padding-top-5x  { padding-top: 200px; }
 
 .rdfreitas-padding-left-0 { padding-left: 0;}
 .rdfreitas-padding-left-01x { padding-left: 4px; }
@@ -437,6 +442,8 @@ a:visited {
 .rdfreitas-background-c11 { background-color: #121212; }
 .rdfreitas-background-c12 { background-color: #363636; }
 .rdfreitas-background-c13 { background-color: #242424; }
+
+.rdfreitas-img-90 { width:90%; }
 
 .rdfreitas-destaque {
   font-weight: 500;

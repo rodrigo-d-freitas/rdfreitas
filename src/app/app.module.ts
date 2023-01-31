@@ -5,37 +5,33 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './pages/home/home.component';
-import { AboutComponent } from './pages/about/about.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
-import { ContactComponent } from './pages/contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { rootRouterConfig } from './app.routes';
 import { APP_BASE_HREF } from '@angular/common';
-import { DataBindingComponent } from './curso/data-binding/data-binding.component';
 import { RdfreitasService } from './services/rdfreitasService';
 import { HttpClientModule } from '@angular/common/http';
-import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    AboutComponent,
     ServicesComponent,
     PortfolioComponent,
-    ContactComponent,
-    FooterComponent,
-    DataBindingComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpClientModule,
     ReactiveFormsModule,
-    [RouterModule.forRoot(rootRouterConfig, {useHash: false})]
+    [RouterModule.forRoot(rootRouterConfig)]
+  ],
+  exports: [
+    RouterModule
   ],
   providers: [
     RdfreitasService,

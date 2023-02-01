@@ -13,6 +13,7 @@ import { rootRouterConfig } from './app.routes';
 import { APP_BASE_HREF } from '@angular/common';
 import { RdfreitasService } from './services/rdfreitasService';
 import { HttpClientModule } from '@angular/common/http';
+import { PortfolioCardDetalhesComponent } from './pages/components/portfolio-card-detalhes/portfolio-card-detalhes.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     ServicesComponent,
     PortfolioComponent,
-    FooterComponent
+    FooterComponent,
+    PortfolioCardDetalhesComponent
   ],
   imports: [
     BrowserModule,

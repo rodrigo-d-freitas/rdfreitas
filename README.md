@@ -12,8 +12,10 @@ Want to contribute? Follow these recommendations.
 
 ## History
 
-**[v0.1.0](https://github.com/rodrigo-d-freitas/releases/tag/v.0.1.0)**
-- Create first area
+**[v0.2.0](https://github.com/rodrigo-d-freitas/rdfreitas/releases/tag/0.20)**
+- Separando as seções em páginas
+- Lazy loading nas páginas
+
 
 ## Meta
 

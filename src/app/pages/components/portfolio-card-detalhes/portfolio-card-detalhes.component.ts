@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Portfolio } from 'src/app/models/Portfolio';
 
 @Component({
   selector: 'app-portfolio-card-detalhes',
@@ -8,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class PortfolioCardDetalhesComponent {
 
+  @Input()
+  portfolio: Portfolio;
 }

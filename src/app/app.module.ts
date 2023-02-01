@@ -6,14 +6,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ServicesComponent } from './pages/services/services.component';
-import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { rootRouterConfig } from './app.routes';
 import { APP_BASE_HREF } from '@angular/common';
 import { RdfreitasService } from './services/rdfreitasService';
 import { HttpClientModule } from '@angular/common/http';
-import { PortfolioCardDetalhesComponent } from './pages/components/portfolio-card-detalhes/portfolio-card-detalhes.component';
 
 @NgModule({
   declarations: [
@@ -21,9 +19,7 @@ import { PortfolioCardDetalhesComponent } from './pages/components/portfolio-car
     HeaderComponent,
     HomeComponent,
     ServicesComponent,
-    PortfolioComponent,
-    FooterComponent,
-    PortfolioCardDetalhesComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,

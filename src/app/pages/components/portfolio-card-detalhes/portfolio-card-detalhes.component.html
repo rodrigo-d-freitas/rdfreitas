@@ -1,40 +1,17 @@
-<div class="grid rdfreitas-margin-top-3x">
-    <div class="g-col-6">
-        <h5>CRDantas advogados</h5>
-    </div>
-    <div class="g-col-6 text-end">
-        <h5>2019</h5>
-    </div>
-    <div class="g-col-12">
-        <span class="rdfreitas-deco-retangulo rdfreitas-deco-retangulo-100 rdfreitas-margin-left-0 rdfreitas-height-1x"></span>
-    </div>
-    <div class="g-col-6">
-        <p>Posicionamento digital do escritório de advocacia</p>
-    </div>
-    <div class="g-col-6 rdfreitas-skills">
-        <span class="btn btn-light">PHP</span>
-        <span class="btn btn-light">HTML</span>
-        <span class="btn btn-light">CSS</span>
-        <span class="btn btn-light">Wordpress</span>
-    </div>
-</div>
 <div class="grid rdfreitas-margin-top-1x">
     <div class="g-col-6">
-        <h5>Premag</h5>
+        <h5>{{portfolio.titulo}}</h5>
     </div>
     <div class="g-col-6 text-end">
-        <h5>2022/2023</h5>
+        <h5>{{portfolio.ano}}</h5>
     </div>
     <div class="g-col-12">
         <span class="rdfreitas-deco-retangulo rdfreitas-deco-retangulo-100 rdfreitas-margin-left-0 rdfreitas-height-1x"></span>
     </div>
     <div class="g-col-6">
-        <p>Redesign do antigo site e desenvolvimento do site trazendo a responsividade</p>
+        <p>{{portfolio.description}}</p>
     </div>
     <div class="g-col-6 rdfreitas-skills">
-        <span class="btn btn-light">UI design</span>
-        <span class="btn btn-light">UX design</span>
-        <span class="btn btn-light">HTML</span>
-        <span class="btn btn-light">CSS</span>
+        <span class="btn btn-light" *ngFor="let skill of portfolio.skills">{{skill}}</span>
     </div>
 </div>

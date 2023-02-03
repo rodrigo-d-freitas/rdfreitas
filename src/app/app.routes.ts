@@ -1,6 +1,7 @@
 import { RouterModule, Routes } from "@angular/router";
 import { PortfolioComponent } from "./pages/portfolio/portfolio.component";
 import { NgModule } from "@angular/core";
+import { NotFoundComponent } from "./pages/not-found/not-found.component";
 
 
 export const rootRouterConfig: Routes = [
@@ -14,6 +15,7 @@ export const rootRouterConfig: Routes = [
     {path: 'contact', 
             loadChildren: () => import('./pages/contact/contact.module')
             .then(m => m.ContactModule)},
+    {path: '**', component: NotFoundComponent}
     
 ];
 

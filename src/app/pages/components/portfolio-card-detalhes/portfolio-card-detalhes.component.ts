@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Portfolio } from 'src/app/models/Portfolio';
 
 @Component({

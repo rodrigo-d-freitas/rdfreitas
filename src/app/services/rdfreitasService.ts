@@ -3,6 +3,7 @@ import { HttpClient } from "@angular/common/http";
 import { Observable } from "rxjs";
 
 import { Menu } from "./Menu";
+import { Portfolio } from "../models/Portfolio";
 
 @Injectable()
 export class RdfreitasService {
@@ -15,6 +16,10 @@ export class RdfreitasService {
 
     construirMenu() : Observable<Menu[]> {
         return this.http.get<Menu[]>(this.UrlServiceV1 + "menu");
+    }
+
+    itensPortfolio() : Observable<Portfolio[]> {
+        return this.http.get<Portfolio[]>(this.UrlServiceV1 + "portfolio");
     }
 
 }

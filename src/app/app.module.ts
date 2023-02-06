@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { FooterComponent } from './footer/footer.component';
@@ -13,11 +12,11 @@ import { APP_BASE_HREF } from '@angular/common';
 import { RdfreitasService } from './services/rdfreitasService';
 import { HttpClientModule } from '@angular/common/http';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { HeaderModule } from './header/header.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     HomeComponent,
     ServicesComponent,
     FooterComponent,
@@ -28,6 +27,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     FormsModule,
     HttpClientModule,
     ReactiveFormsModule,
+    HeaderModule,
     [RouterModule.forRoot(rootRouterConfig)]
   ],
   exports: [

@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
 
   constructor(private rdfreitasService : RdfreitasService) { }
 
-  public itensMenu: Menu[] = [];
+  public itensMenu: Menu[];
 
   ngOnInit() {
     this.rdfreitasService.construirMenu()

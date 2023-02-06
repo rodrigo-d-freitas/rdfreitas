@@ -34,8 +34,7 @@ import { HeaderModule } from './header/header.module';
     RouterModule
   ],
   providers: [
-    RdfreitasService,
-    {provide: APP_BASE_HREF, useValue: '/'}
+    RdfreitasService
   ],
   bootstrap: [AppComponent]
 })

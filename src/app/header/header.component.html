@@ -6,10 +6,7 @@
       </span>
     </a>
 
-    <ul class="nav nav-pills">
-      <li *ngFor="let item of itensMenu" class="nav-item"><a [routerLinkActiveOptions]="{exact: true}" routerLinkActive="active" routerLink="{{item.link}}" class="nav-link">{{item.nome}}</a></li>
-      
-    </ul>
+    <app-menu *ngFor="let item of itensMenu" [menu]="item"></app-menu>
   </header>
 </div>
   

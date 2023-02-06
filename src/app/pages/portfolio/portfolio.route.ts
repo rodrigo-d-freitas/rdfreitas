@@ -10,9 +10,7 @@ const portfolioRouterConfig: Routes = [
     imports: [
         RouterModule.forChild(portfolioRouterConfig)
     ],
-    exports: [ RouterModule]
+    exports: [RouterModule]
 })
 
-export class PortfolioRoutingModule {
-
-}
+export class PortfolioRoutingModule {}

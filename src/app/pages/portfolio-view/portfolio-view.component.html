@@ -1,1 +1,15 @@
-<p>portfolio-view works!</p>
+<div class="grid rdfreitas-margin-top-1x">
+    <div class="g-col-6">
+        <h5> {{portfolio.titulo}}</h5>
+    </div>
+    <div class="g-col-6 text-end">
+        <h5>{{portfolio.ano}}</h5>
+    </div>
+    <div class="g-col-12">
+        <span class="rdfreitas-deco-retangulo rdfreitas-deco-retangulo-100 rdfreitas-margin-left-0 rdfreitas-height-1x"></span>
+    </div>
+    
+    <div class="g-col-6 rdfreitas-skills">
+        <span class="btn btn-light" *ngFor="let skill of portfolio.skills">{{skill}}</span>
+    </div>
+</div>

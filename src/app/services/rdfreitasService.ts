@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
-import { Observable } from "rxjs";
+import { filter, map, Observable } from "rxjs";
 
 import { Menu } from "../models/Menu";
 import { Portfolio } from "../models/Portfolio";
@@ -14,8 +14,10 @@ export class RdfreitasService {
 
     protected UrlServiceV1: string = 'http://localhost:3000/';
 
-    obterPorId(id: number) : Portfolio {
-        return this.portfolios?.find(portfolio => portfolio.id == id);
+    obterPorId(id: number) : Observable<Portfolio> {
+        return this.itensPortfolio()?.pipe(
+            map(portfolios => portfolios.find(portfolio => portfolio.id == id))
+        )
     }
 
     construirMenu() : Observable<Menu[]> {

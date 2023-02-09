@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Observable } from 'rxjs';
 import { Portfolio } from 'src/app/models/Portfolio';
 import { RdfreitasService } from 'src/app/services/rdfreitasService';
 
@@ -11,7 +12,7 @@ import { RdfreitasService } from 'src/app/services/rdfreitasService';
 })
 export class PortfolioViewComponent implements OnInit {
 
-  portfolio : Portfolio;
+  portfolio : Observable<Portfolio>;
 
   constructor(private route : ActivatedRoute, public rdfreitasService : RdfreitasService) {}
 

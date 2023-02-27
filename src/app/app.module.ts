@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { rootRouterConfig } from './app.routes';
@@ -16,7 +15,6 @@ import { HeaderModule } from './header/header.module';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     FooterComponent,
     NotFoundComponent
   ],

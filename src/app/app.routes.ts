@@ -5,7 +5,13 @@ import { NotFoundComponent } from "./pages/not-found/not-found.component";
 
 
 export const rootRouterConfig: Routes = [
-    {path: '', redirectTo: '/home', pathMatch: 'full'},
+    
+    {path: '',
+            loadChildren: () => import('./pages/home/home.module')
+            .then(m => m.HomeModule)},
+    {path: 'home',
+            loadChildren: () => import('./pages/home/home.module')
+            .then(m => m.HomeModule)},
     {path: 'portfolio', 
             loadChildren: () => import('./pages/portfolio/portfolio.module')
             .then(m => m.PortfolioModule)},

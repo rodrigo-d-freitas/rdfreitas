@@ -296,7 +296,7 @@
   rdfreita's styles
 **/
 body {
-  font-family: 'Roboto', 'Poppins', sans-serif;
+  font-family: 'Bitter', serif;
 }
 .logo {
   width: 200px;
@@ -470,26 +470,23 @@ a:visited {
 .rdfreitas-img-20 { width:20%; }
 .rdfreitas-img-10 { width:10%; }
 
+.rdfreitas-tetxt-normal { font-size: 12px; }
+.rdfreitas-text-head-1 { font-size: 36px; }
+.rdfreitas-tetxt-button { font-size: 12px; }
+
 .rdfreitas-intro,
 .rdfreitas-presentation,
 .rdfreitas-destaque { padding: 120px 0;}
 .rdfreitas-intro img { margin-top: -40px;}
 
-.rdfreitas-destaque {
-  font-weight: 500;
-  color: #7BC411;
-}
+.rdfreitas-btn-small { width: 80px; font-family: 'Chakra Petch', sans-serif; }
+.rdfreitas-btn-medium { width: 120px; font-family: 'Chakra Petch', sans-serif; }
+.rdfreitas-btn-large { width: 160px; font-family: 'Chakra Petch', sans-serif; }
 
-.rdfreitas-skills span {
-  margin: 4px;
-}
+.rdfreitas-skills span { margin: 4px; }
 
-.rdfreitas-formacao-box {
-  width: 200px;
-}
-.rdfreitas-formacao-box h3 {
-  height: 90px;
-}
+.rdfreitas-formacao-box { width: 200px; }
+.rdfreitas-formacao-box h3 { height: 90px; }
 .flex-container {
   display: flex;
   flex-direction: row;

@@ -1,0 +1,6 @@
+@mixin chakra($size: inherit, $weight: inherit, $transform: inherit){
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: $size;
+    font-weight: $weight;
+    text-transform: $transform;
+}

@@ -15,4 +15,6 @@
     <div class="g-col-6 rdfreitas-skills">
         <span class="btn btn-light" *ngFor="let skill of (portfolio | async).skills">{{skill}}</span>
     </div>
+
+    <button type="button" class="btn btn-success" (click)="retornar()">Voltar</button>
 </div>

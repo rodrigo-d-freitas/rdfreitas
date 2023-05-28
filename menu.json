@@ -1,17 +1,53 @@
 {
-    "menu": [
+   "menu": [
      {
         "nome": "Data-Binding",
-        "link": "/binding"
+        "link": "/binding",
+        "admin": false,
+        "exact": false
      },
      {
         "nome": "Sobre mim",
-        "link": "/about"
+        "link": "/about",
+        "admin": false,
+        "exact": false
      }
      ,
      {
         "nome": "Contato",
-        "link": "/contact"
+        "link": "/contact",
+        "admin": false,
+        "exact": false
+     },
+     {
+        "nome": "Portfolio",
+        "link": "/portfolio",
+        "admin": false,
+        "exact": false
      }
-    ]
+   ],
+   "portfolio": [
+      {
+         "id" : 1,
+         "titulo" : "CRDantas",
+         "ano" : "2023",
+         "description" : "Inclusão digital do escritório de advocacia",
+         "skills" : ["HTML", "CSS", "UI Design", "Angular", "Wordpress", "Wordpress Themes"]
+      },
+      {
+         "id" : 2,
+         "titulo" : "Premag",
+         "ano" : "2023",
+         "description" : "Redesign do site",
+         "skills" : ["HTML", "CSS", "UI Design", "UX Design", "Angular"]
+      },
+      {
+         "id" : 3,
+         "titulo" : "Site do Rodrigo Freitas",
+         "ano" : "2023",
+         "description" : "Redesign do site, utilização do Angular para fins de estudos e implementação",
+         "skills" : ["HTML", "CSS", "UI Design", "UX Design", "Angular", "REST api", "Bootstrap 4"]
+      }
+   ]
+
 }

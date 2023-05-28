@@ -1,5 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Portfolio } from 'src/app/models/Portfolio';
 import { RdfreitasService } from 'src/app/services/rdfreitasService';
@@ -14,7 +14,9 @@ export class PortfolioViewComponent implements OnInit {
 
   portfolio : Observable<Portfolio>;
 
-  constructor(private route : ActivatedRoute, public rdfreitasService : RdfreitasService) {}
+  constructor(
+    private route : ActivatedRoute, 
+    private rdfreitasService : RdfreitasService) {}
 
   ngOnInit() {
     this.route.params

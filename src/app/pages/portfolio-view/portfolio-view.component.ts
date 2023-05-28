@@ -16,7 +16,8 @@ export class PortfolioViewComponent implements OnInit {
 
   constructor(
     private route : ActivatedRoute, 
-    private rdfreitasService : RdfreitasService) {}
+    private rdfreitasService : RdfreitasService,
+    private router: Router) {}
 
   ngOnInit() {
     this.route.params
@@ -25,5 +26,7 @@ export class PortfolioViewComponent implements OnInit {
      });
   }
 
-  
+  retornar() {
+    this.router.navigate(['/portfolio']);
+  }
 }

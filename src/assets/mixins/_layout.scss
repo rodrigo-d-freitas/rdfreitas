@@ -1,6 +1,7 @@
 $max: 200;
 $offset: 4;
 $unit: 'px';
+$maxborder: 2;
 
 @mixin margin($className, $styleName) {
   $i: 0;
@@ -21,3 +22,13 @@ $unit: 'px';
       $i: $i + $offset;
     }
   }
+
+@mixin border($className, $styleName, $color) {
+  $i: 1;
+  @while $i <= $maxborder {
+    #{$className + $i} {
+      #{$styleName}: #{$i + $unit} solid #{$color};
+    }
+    $i: $i + 1;
+  }
+}

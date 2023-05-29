@@ -4,7 +4,6 @@
 @import "assets/mixins/layout";
 @import "assets/mixins/fonts";
 
-
 $prefix : rdfreitas;
 
 :host {
@@ -330,69 +329,24 @@ color: #313F49;
 a:visited {
 color: #313F49;
 }
-.rdfreitas-icon {
-width: 56px;
-height: 56px;
-margin: 0 5px;
-}
-.rdfreitas-title {
-font-family: poppins;
-font-weight: bold;
-font-size: 55px;
-}
-.rdfreitas-subtitle {
-display: block;
-word-break: break-all;
-@include chakra(74px, bold, uppercase);
-margin: 0;
-}
-.rdfreitas-subtitle-1{
-width: 350px;
-}
-.rdfreitas-deco-retangulo{
-display: block;
-background-color: #FC9700;
-margin-top: -15px;
-margin-left: 9px;
-}
 
 
-//Paleta de 10 cores para fontes
-@for $i from 1 through 10 {
-  .rdfreitas-color-#{$i}{
-    color: hsl(36, 100, 49-$i*5);
-  }
-}
+@include margin('.rdfreitas-margin-top-', 'margin-top');
+@include margin('.rdfreitas-margin-left-', 'margin-left');
+@include margin('.rdfreitas-margin-bottom-', 'margin-bottom');
+@include margin('.rdfreitas-margin-right-', 'margin-right');
 
-//Paleta de 10 cores para backgrounds
-@for $i from 1 through 10 {
-  .rdfreitas-background-#{$i}{
-    background-color: hsl(36, 100, 49-$i*5);
-  }
-}
+@include padding('.rdfreitas-padding-top-', 'padding-top');
+@include padding('.rdfreitas-padding-left-', 'padding-left');
+@include padding('.rdfreitas-padding-bottom-', 'padding-bottom');
+@include padding('.rdfreitas-padding-right-', 'padding-right');
 
-//Paleta de 10 tons de cinza para fontes
-@for $i from 0 through 9 {
-  .rdfreitas-color-c-#{$i}{
-    color: hsl(36, 0, 0+$i*10);
-  }
-}
+@include border('.rdfreitas-border-top-', 'border-top', '#EEBB22');
+@include border('.rdfreitas-border-bottom-', 'border-bottom', '#EEBB22');
+@include border('.rdfreitas-border-left-', 'border-left', '#EEBB22');
+@include border('.rdfreitas-border-right-', 'border-right', '#EEBB22');
 
-//Paleta de 10 tons de cinza para backgrounds
-@for $i from 0 through 9 {
-  .rdfreitas-background-c-#{$i}{
-    background-color: hsl(36, 0, 0+$i*10);
-  }
-}
-
-@include margin('rdfreitas-margin-top-', 'margin-top');
-@include margin('rdfreitas-margin-left-', 'margin-left');
-@include margin('rdfreitas-margin-bottom-', 'margin-bottom');
-
-@include padding('rdfreitas-padding-top-', 'padding-top');
-@include padding('rdfreitas-padding-left-', 'padding-left');
-@include padding('rdfreitas-padding-bottom-', 'padding-bottom');
-
+@include font('.rdfreitas-font-', 'font-size');
 
 .rdfreitas-img-90 { width:90%; }
 .rdfreitas-img-80 { width:80%; }
@@ -549,3 +503,35 @@ a:visited {
 .flex-container > .raw-item {
   width: 5rem;
 }
+/* CORES PRIMÁRIAS */
+.rdfreitas-color-1 { color: #664411; }
+.rdfreitas-color-2 { color: #AA7733; }
+.rdfreitas-color-3 { color: #BB9944; }
+.rdfreitas-color-4 { color: #EEBB22; }
+
+.rdfreitas-background-1 { background-color: #664411; }
+.rdfreitas-background-2 { background-color: #AA7733; }
+.rdfreitas-background-3 { background-color: #BB9944; }
+.rdfreitas-background-4 { background-color: #EEBB22; }
+
+/* CORES SECUNDÁRIAS */
+.rdfreitas-color-5 { color: #33BBAA; }
+.rdfreitas-color-6 { color: #116655; }
+.rdfreitas-color-7 { color: #0011BB; }
+.rdfreitas-color-8 { color: #001166; }
+
+.rdfreitas-background-5 { background-color: #33BBAA; }
+.rdfreitas-background-6 { background-color: #116655; }
+.rdfreitas-background-7 { background-color: #0011BB; }
+.rdfreitas-background-8 { background-color: #001166; }
+
+/* CORES SUPORTES */
+.rdfreitas-support-color-5 { color: #111100; }
+.rdfreitas-support-color-6 { color: #332222; }
+.rdfreitas-support-color-7 { color: #DDCCAA; }
+.rdfreitas-support-color-8 { color: #EEEECC; }
+
+.rdfreitas-support-background-5 { background-color: #111100; }
+.rdfreitas-support-background-6 { background-color: #332222; }
+.rdfreitas-support-background-7 { background-color: #DDCCAA; }
+.rdfreitas-support-background-8 { background-color: #EEEECC; }

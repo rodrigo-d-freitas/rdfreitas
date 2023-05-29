@@ -1,3 +1,19 @@
+$max: 120;
+$offset: 4;
+$unit: 'px';
+
+@mixin font($className, $styleName) {
+  $i: 0;
+  @while $i <= $max {
+    #{$className + $i} { 
+      #{$styleName}: #{$i + $unit};
+    }
+    $i: $i + $offset;
+  }
+}
+
+
+
 @mixin chakra($size: inherit, $weight: inherit, $transform: inherit){
     font-family: 'Chakra Petch', sans-serif;
     font-size: $size;

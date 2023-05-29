@@ -15,6 +15,12 @@ $maxborder: 2;
   }
 }
 
+@mixin margin-negativa($className, $styleName, $size) {
+    #{$className + $size} { 
+      #{$styleName}: - #{$size + $unit};
+    }
+}
+
 @mixin padding($className, $styleName) {
     $i: 0;
     @while $i <= $max {
@@ -43,5 +49,16 @@ $maxPercImg: 100;
       #{$styleName}: #{$i + $unitPerc};
     }
     $i: $i + $offset10;
+  }
+}
+
+$maxHeight: 20;
+@mixin height($className, $styleName) {
+  $i: 4;
+  @while $i <= $maxHeight {
+    #{$className + $i} { 
+      #{$styleName}: #{$i + $unit};
+    }
+    $i: $i + $offset;
   }
 }

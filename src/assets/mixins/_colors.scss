@@ -1,32 +1,40 @@
-/* CORES PRIMÁRIAS */
-.rdfreitas-color-1 { color: #664411; }
-.rdfreitas-color-2 { color: #AA7733; }
-.rdfreitas-color-3 { color: #BB9944; }
-.rdfreitas-color-4 { color: #EEBB22; }
 
-.rdfreitas-background-1 { background-color: #664411; }
-.rdfreitas-background-2 { background-color: #AA7733; }
-.rdfreitas-background-3 { background-color: #BB9944; }
-.rdfreitas-background-4 { background-color: #EEBB22; }
+.rdfreitas-color {
+    &-1 { color: #664411; }
+    &-2 { color: #AA7733; }
+    &-3 { color: #BB9944; }
+    &-4 { color: #EEBB22; }
 
-/* CORES SECUNDÁRIAS */
-.rdfreitas-color-5 { color: #33BBAA; }
-.rdfreitas-color-6 { color: #116655; }
-.rdfreitas-color-7 { color: #0011BB; }
-.rdfreitas-color-8 { color: #001166; }
+    &-5 { color: #33BBAA; }
+    &-6 { color: #116655; }
+    &-7 { color: #0011BB; }
+    &-8 { color: #001166; }
+}
 
-.rdfreitas-background-5 { background-color: #33BBAA; }
-.rdfreitas-background-6 { background-color: #116655; }
-.rdfreitas-background-7 { background-color: #0011BB; }
-.rdfreitas-background-8 { background-color: #001166; }
+.rdfreitas-background {
+    &-1 { background-color: #664411; }
+    &-2 { background-color: #AA7733; }
+    &-3 { background-color: #BB9944; }
+    &-4 { background-color: #EEBB22; }
 
-/* CORES SUPORTES */
-.rdfreitas-support-color-5 { color: #111100; }
-.rdfreitas-support-color-6 { color: #332222; }
-.rdfreitas-support-color-7 { color: #DDCCAA; }
-.rdfreitas-support-color-8 { color: #EEEECC; }
+    &-5 { background-color: #33BBAA; }
+    &-6 { background-color: #116655; }
+    &-7 { background-color: #0011BB; }
+    &-8 { background-color: #001166; }
+}
 
-.rdfreitas-support-background-5 { background-color: #111100; }
-.rdfreitas-support-background-6 { background-color: #332222; }
-.rdfreitas-support-background-7 { background-color: #DDCCAA; }
-.rdfreitas-support-background-8 { background-color: #EEEECC; }
+.rdfreitas-support-color {
+    &-5 { color: #111100; }
+    &-6 { color: #332222; }
+    &-7 { color: #DDCCAA; }
+    &-8 { color: #EEEECC; }
+}
+
+
+
+.rdfreitas-support-background {
+    &-5 { background-color: #111100; }
+    &-6 { background-color: #332222; }
+    &-7 { background-color: #DDCCAA; }
+    &-8 { background-color: #EEEECC; }
+}

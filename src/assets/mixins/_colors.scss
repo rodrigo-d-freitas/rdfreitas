@@ -1,40 +1,59 @@
 
 .rdfreitas-color {
-    &-1 { color: #664411; }
-    &-2 { color: #AA7733; }
-    &-3 { color: #BB9944; }
-    &-4 { color: #EEBB22; }
+    &-641 { color: #664411; }
+    &-a73 { color: #AA7733; }
+    &-b94 { color: #BB9944; }
+    &-eb2 { color: #EEBB22; }
 
-    &-5 { color: #33BBAA; }
-    &-6 { color: #116655; }
-    &-7 { color: #0011BB; }
-    &-8 { color: #001166; }
+    &-3ba { color: #33BBAA; }
+    &-165 { color: #116655; }
+    &-01b { color: #0011BB; }
+    &-016 { color: #001166; }
 }
 
 .rdfreitas-background {
-    &-1 { background-color: #664411; }
-    &-2 { background-color: #AA7733; }
-    &-3 { background-color: #BB9944; }
-    &-4 { background-color: #EEBB22; }
+    &-641 { background-color: #664411; }
+    &-a73 { background-color: #AA7733; }
+    &-b94 { background-color: #BB9944; }
+    &-eb2 { background-color: #EEBB22; }
 
-    &-5 { background-color: #33BBAA; }
-    &-6 { background-color: #116655; }
-    &-7 { background-color: #0011BB; }
-    &-8 { background-color: #001166; }
+    &-3ba { background-color: #33BBAA; }
+    &-165 { background-color: #116655; }
+    &-01b { background-color: #0011BB; }
+    &-016 { background-color: #001166; }
 }
 
 .rdfreitas-support-color {
-    &-5 { color: #111100; }
-    &-6 { color: #332222; }
-    &-7 { color: #DDCCAA; }
-    &-8 { color: #EEEECC; }
+    &-110 { color: #111100; }
+    &-322 { color: #332222; }
+    &-dca { color: #DDCCAA; }
+    &-eec { color: #EEEECC; }
 }
 
 
 
 .rdfreitas-support-background {
-    &-5 { background-color: #111100; }
-    &-6 { background-color: #332222; }
-    &-7 { background-color: #DDCCAA; }
-    &-8 { background-color: #EEEECC; }
+    &-110 { background-color: #111100; }
+    &-322 { background-color: #332222; }
+    &-dca { background-color: #DDCCAA; }
+    &-eec { background-color: #EEEECC; }
+}
+
+$string: '#';
+@mixin link($className, $color) {
+    #{$className + $color} { 
+        
+        &:hover {
+            text-decoration: underline !important;
+            color: #{$string + $color} !important;
+
+        }
+
+        &.active {
+            font-weight: 800;
+            color: #{$string + $color} !important;
+
+        }
+    }
+   
 }

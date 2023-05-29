@@ -18,15 +18,13 @@ $unit: 'px';
     }
 }
 
-@mixin chakra($size: inherit, $weight: inherit, $transform: inherit){
+@mixin chakra(){
+  .rdfreitas-font-chakra{
     font-family: 'Chakra Petch', sans-serif;
-    font-size: $size;
-    font-weight: $weight;
-    text-transform: $transform;
+  }
 }
-@mixin bitter($size: inherit, $weight: inherit, $transform: inherit){
+@mixin bitter(){
+  .rdfreitas-font-bitter{
     font-family: 'Bitter', serif;
-    font-size: $size;
-    font-weight: $weight;
-    text-transform: $transform;
+  }
 }

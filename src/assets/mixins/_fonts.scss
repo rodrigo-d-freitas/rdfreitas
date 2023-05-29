@@ -28,3 +28,7 @@ $unit: 'px';
     font-family: 'Bitter', serif;
   }
 }
+
+@mixin word-break(){
+  .rdfreitas-word-wrap { word-wrap: break-word;}
+}

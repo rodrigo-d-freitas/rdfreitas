@@ -12,10 +12,10 @@ export const rootRouterConfig: Routes = [
     {path: 'home',
             loadChildren: () => import('./pages/home/home.module')
             .then(m => m.HomeModule)},
-    {path: 'portfolio', 
+    {path: 'experiencia', 
             loadChildren: () => import('./pages/portfolio/portfolio.module')
             .then(m => m.PortfolioModule)},
-    {path: 'about', 
+    {path: 'formacao', 
             loadChildren: () => import('./pages/about/about.module')
             .then(m => m.AboutModule)},
     {path: 'contact', 

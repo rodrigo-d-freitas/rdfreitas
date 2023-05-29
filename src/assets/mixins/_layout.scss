@@ -62,3 +62,14 @@ $maxHeight: 20;
     $i: $i + $offset;
   }
 }
+
+$maxWidth: 400;
+@mixin width($className, $styleName) {
+  $i: 4;
+  @while $i <= $maxWidth {
+    #{$className + $i} { 
+      #{$styleName}: #{$i + $unit};
+    }
+    $i: $i + $offset;
+  }
+}

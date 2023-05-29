@@ -1,30 +1,17 @@
 {
    "menu": [
      {
-        "nome": "Data-Binding",
-        "link": "/binding",
+        "nome": "Experiência",
+        "link": "/experiencia",
         "admin": false,
         "exact": false
      },
      {
-        "nome": "Sobre mim",
-        "link": "/about",
-        "admin": false,
-        "exact": false
-     }
-     ,
-     {
-        "nome": "Contato",
-        "link": "/contact",
-        "admin": false,
-        "exact": false
-     },
-     {
-        "nome": "Portfolio",
-        "link": "/portfolio",
-        "admin": false,
-        "exact": false
-     }
+         "nome": "Formação",
+         "link": "/formacao",
+         "admin": false,
+         "exact": false
+      }
    ],
    "portfolio": [
       {

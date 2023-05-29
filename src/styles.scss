@@ -29,11 +29,14 @@ body {
 @include border('.rdfreitas-border-right-', 'border-right', '#EEBB22');
 
 @include height('.rdfreitas-height-', 'height');
+@include width('.rdfreitas-width-', 'width');
 
 @include chakra();
 @include bitter();
 /*FONTES COM VARIAÇÃO DE TAMANHO DE 8 A 120*/
 @include font('.rdfreitas-font-', 'font-size');
+@include fix-font('.rdfreitas-font-fixa-', 95, 'px');
+@include word-break();
 
 
 @include image('.rdfreitas-img-', 'width');

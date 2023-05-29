@@ -1,13 +1,17 @@
-<div class="container">
-  <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
-      <span class="fs-4">
-          <img src="../../assets/images/rdfreitas-logo.svg" alt="Rdfreitas" class="logo" />
-      </span>
-    </a>
+<header>
+  <nav class="navbar navbar-expand-lg rdfreitas-support-background-110 rdfreitas-padding-top-20 rdfreitas-padding-bottom-20">
+    <div class="container">
+      <a class="navbar-brand" [routerLink]="['/home']"><img src="../../assets/images/logo-c-1x.png" class="rdfreitas-img-60" ></a>
 
-    <app-menu *ngFor="let item of itensMenu" [menu]="item"></app-menu>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <app-menu *ngFor="let item of itensMenu" [menu]="item"></app-menu>
+      </div>
+    </div>
+  </nav>
     
-  </header>
-</div>
+</header>
+
+    
+    
+
   

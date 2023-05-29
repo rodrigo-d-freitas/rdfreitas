@@ -2,79 +2,79 @@
 /**
   rdfreita's styles
 **/
-.rdfreitas-color-1 {
+.rdfreitas-color-641 {
   color: #664411;
 }
-.rdfreitas-color-2 {
+.rdfreitas-color-a73 {
   color: #AA7733;
 }
-.rdfreitas-color-3 {
+.rdfreitas-color-b94 {
   color: #BB9944;
 }
-.rdfreitas-color-4 {
+.rdfreitas-color-eb2 {
   color: #EEBB22;
 }
-.rdfreitas-color-5 {
+.rdfreitas-color-3ba {
   color: #33BBAA;
 }
-.rdfreitas-color-6 {
+.rdfreitas-color-165 {
   color: #116655;
 }
-.rdfreitas-color-7 {
+.rdfreitas-color-01b {
   color: #0011BB;
 }
-.rdfreitas-color-8 {
+.rdfreitas-color-016 {
   color: #001166;
 }
 
-.rdfreitas-background-1 {
+.rdfreitas-background-641 {
   background-color: #664411;
 }
-.rdfreitas-background-2 {
+.rdfreitas-background-a73 {
   background-color: #AA7733;
 }
-.rdfreitas-background-3 {
+.rdfreitas-background-b94 {
   background-color: #BB9944;
 }
-.rdfreitas-background-4 {
+.rdfreitas-background-eb2 {
   background-color: #EEBB22;
 }
-.rdfreitas-background-5 {
+.rdfreitas-background-3ba {
   background-color: #33BBAA;
 }
-.rdfreitas-background-6 {
+.rdfreitas-background-165 {
   background-color: #116655;
 }
-.rdfreitas-background-7 {
+.rdfreitas-background-01b {
   background-color: #0011BB;
 }
-.rdfreitas-background-8 {
+.rdfreitas-background-016 {
   background-color: #001166;
 }
 
-.rdfreitas-support-color-5 {
+.rdfreitas-support-color-110 {
   color: #111100;
 }
-.rdfreitas-support-color-6 {
+.rdfreitas-support-color-322 {
   color: #332222;
 }
-.rdfreitas-support-color-7 {
+.rdfreitas-support-color-dca {
   color: #DDCCAA;
 }
-.rdfreitas-support-color-8 {
+.rdfreitas-support-color-eec {
   color: #EEEECC;
 }
 
-.rdfreitas-support-background-5 {
+.rdfreitas-support-background-110 {
   background-color: #111100;
 }
-.rdfreitas-support-background-6 {
+.rdfreitas-support-background-322 {
   background-color: #332222;
 }
-.rdfreitas-support-background-7 {
+.rdfreitas-support-background-dca {
   background-color: #DDCCAA;
 }
-.rdfreitas-support-background-8 {
+.rdfreitas-support-background-eec {
   background-color: #EEEECC;
 }
 
@@ -1130,6 +1130,14 @@ body {
   height: 20px;
 }
 
+.rdfreitas-font-chakra {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.rdfreitas-font-bitter {
+  font-family: "Bitter", serif;
+}
+
 /*FONTES COM VARIAÇÃO DE TAMANHO DE 8 A 120*/
 .rdfreitas-font-8 {
   font-size: 8px;
@@ -1285,6 +1293,15 @@ body {
 
 .rdfreitas-img-100 {
   width: 100%;
+}
+
+.rdfreitas-link-eebb22:hover {
+  text-decoration: underline !important;
+  color: #eebb22 !important;
+}
+.rdfreitas-link-eebb22.active {
+  font-weight: 800;
+  color: #eebb22 !important;
 }
 
 .rdfreitas-btn-small {

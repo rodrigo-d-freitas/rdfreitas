@@ -30,15 +30,20 @@ body {
 
 @include height('.rdfreitas-height-', 'height');
 
+@include chakra();
+@include bitter();
 /*FONTES COM VARIAÇÃO DE TAMANHO DE 8 A 120*/
 @include font('.rdfreitas-font-', 'font-size');
 
 
 @include image('.rdfreitas-img-', 'width');
 
+@include link('.rdfreitas-link-', 'eebb22');
+
 .rdfreitas-btn-small { width: 80px; font-family: 'Chakra Petch', sans-serif; }
 .rdfreitas-btn-medium { width: 120px; font-family: 'Chakra Petch', sans-serif; }
 .rdfreitas-btn-large { width: 160px; font-family: 'Chakra Petch', sans-serif; }
+
 
 .#{$prefix}{
     &-icon {

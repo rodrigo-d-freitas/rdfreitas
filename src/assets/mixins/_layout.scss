@@ -1,6 +1,8 @@
 $max: 200;
 $offset: 4;
+$offset10: 10;
 $unit: 'px';
+$unitPerc: '%';
 $maxborder: 2;
 
 @mixin margin($className, $styleName) {
@@ -30,5 +32,16 @@ $maxborder: 2;
       #{$styleName}: #{$i + $unit} solid #{$color};
     }
     $i: $i + 1;
+  }
+}
+
+$maxPercImg: 100;
+@mixin image($className, $styleName) {
+  $i: 10;
+  @while $i <= $maxPercImg {
+    #{$className + $i} {
+      #{$styleName}: #{$i + $unitPerc};
+    }
+    $i: $i + $offset10;
   }
 }

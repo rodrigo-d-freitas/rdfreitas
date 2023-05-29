@@ -3,7 +3,7 @@ $offset: 4;
 $unit: 'px';
 
 @mixin font($className, $styleName) {
-  $i: 0;
+  $i: 8;
   @while $i <= $max {
     #{$className + $i} { 
       #{$styleName}: #{$i + $unit};
@@ -12,10 +12,20 @@ $unit: 'px';
   }
 }
 
-
+@mixin fix-font($className, $size, $unit){
+    #{$className + $size} {
+        font-size: #{$size + $unit};
+    }
+}
 
 @mixin chakra($size: inherit, $weight: inherit, $transform: inherit){
     font-family: 'Chakra Petch', sans-serif;
+    font-size: $size;
+    font-weight: $weight;
+    text-transform: $transform;
+}
+@mixin bitter($size: inherit, $weight: inherit, $transform: inherit){
+    font-family: 'Bitter', serif;
     font-size: $size;
     font-weight: $weight;
     text-transform: $transform;

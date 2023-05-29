@@ -1,0 +1,23 @@
+$max: 200;
+$offset: 4;
+$unit: 'px';
+
+@mixin margin($className, $styleName) {
+  $i: 0;
+  @while $i <= $max {
+    #{$className + $i} { 
+      #{$styleName}: #{$i + $unit};
+    }
+    $i: $i + $offset;
+  }
+}
+
+@mixin padding($className, $styleName) {
+    $i: 0;
+    @while $i <= $max {
+      #{$className + $i} { 
+        #{$styleName}: #{$i + $unit};
+      }
+      $i: $i + $offset;
+    }
+  }

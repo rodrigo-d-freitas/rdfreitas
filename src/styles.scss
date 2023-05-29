@@ -356,6 +356,12 @@ a:visited {
 .rdfreitas-deco-retangulo-75 { width: 75%; }
 .rdfreitas-deco-retangulo-100 { width: 100%; }
 
+.rdfreitas-border-left { border-left: 2px solid #EEBB22; }
+.rdfreitas-border-right { border-right: 2px solid #EEBB22; }
+
+.rdfreitas-font-24 { font-size: 24px; }
+.rdfreitas-font-14 { font-size: 14px; }
+
 .rdfreitas-height-1x { height: 4px; }
 .rdfreitas-height-2x { height: 8px; }
 .rdfreitas-height-3x { height: 12px; }
@@ -373,6 +379,23 @@ a:visited {
 .rdfreitas-margin-top-3x { margin-top: 120px; }
 .rdfreitas-margin-top-4x { margin-top: 160px; }
 
+.rdfreitas-margin-right-0  { margin-right: 0; }
+.rdfreitas-margin-right-01x  { margin-right: 4px; }
+.rdfreitas-margin-right-02x  { margin-right: 8px; }
+.rdfreitas-margin-right-03x  { margin-right: 12px; }
+.rdfreitas-margin-right-04x  { margin-right: 16px; }
+.rdfreitas-margin-right-05x  { margin-right: 20px; }
+.rdfreitas-margin-right-1x { margin-right: 40px; }
+.rdfreitas-margin-right-2x { margin-right: 80px; }
+.rdfreitas-margin-right-3x { margin-right: 120px; }
+.rdfreitas-margin-right-4x { margin-right: 160px; }
+
+.rdfreitas-margin-left-0  { margin-left: 0; }
+.rdfreitas-margin-left-01x  { margin-left: 4px; }
+.rdfreitas-margin-left-02x  { margin-left: 8px; }
+.rdfreitas-margin-left-03x  { margin-left: 12px; }
+.rdfreitas-margin-left-04x  { margin-left: 16px; }
+.rdfreitas-margin-left-05x  { margin-left: 20px; }
 .rdfreitas-margin-left-0 { margin-left: 0;}
 .rdfreitas-margin-left-1x { margin-left: 40px; }
 .rdfreitas-margin-left-2x { margin-left: 80px; }
@@ -403,6 +426,10 @@ a:visited {
 .rdfreitas-padding-left-03x { padding-left: 12px; }
 .rdfreitas-padding-left-04x { padding-left: 16px; }
 .rdfreitas-padding-left-05x { padding-left: 20px; }
+.rdfreitas-padding-left-1x { padding-left: 40px; }
+.rdfreitas-padding-left-2x { padding-left: 80px; }
+.rdfreitas-padding-left-3x { padding-left: 120px; }
+.rdfreitas-padding-left-4x { padding-left: 160px; }
 
 .rdfreitas-padding-bottom-0 { padding-bottom: 0;}
 .rdfreitas-padding-bottom-01x { padding-bottom: 4px; }
@@ -414,6 +441,17 @@ a:visited {
 .rdfreitas-padding-bottom-2x { padding-bottom: 80px; }
 .rdfreitas-padding-bottom-3x { padding-bottom: 120px; }
 .rdfreitas-padding-bottom-4x { padding-bottom: 160px; }
+
+.rdfreitas-padding-right-0 { padding-right: 0;}
+.rdfreitas-padding-right-01x { padding-right: 4px; }
+.rdfreitas-padding-right-02x { padding-right: 8px; }
+.rdfreitas-padding-right-03x { padding-right: 12px; }
+.rdfreitas-padding-right-04x { padding-right: 16px; }
+.rdfreitas-padding-right-05x { padding-right: 20px; }
+.rdfreitas-padding-right-1x { padding-right: 40px; }
+.rdfreitas-padding-right-2x { padding-right: 80px; }
+.rdfreitas-padding-right-3x { padding-right: 120px; }
+.rdfreitas-padding-right-4x { padding-right: 160px; }
 
 .rdfreitas-c1 { color: #fafafa; }
 .rdfreitas-c2 { color: #e8e8e8; }
@@ -443,7 +481,41 @@ a:visited {
 .rdfreitas-background-c12 { background-color: #363636; }
 .rdfreitas-background-c13 { background-color: #242424; }
 
+/* CORES PRIMÁRIAS */
+.rdfreitas-color-1 { color: #664411; }
+.rdfreitas-color-2 { color: #AA7733; }
+.rdfreitas-color-3 { color: #BB9944; }
+.rdfreitas-color-4 { color: #EEBB22; }
+
+.rdfreitas-background-1 { background-color: #664411; }
+.rdfreitas-background-2 { background-color: #AA7733; }
+.rdfreitas-background-3 { background-color: #BB9944; }
+.rdfreitas-background-4 { background-color: #EEBB22; }
+
+/* CORES SECUNDÁRIAS */
+.rdfreitas-color-5 { color: #33BBAA; }
+.rdfreitas-color-6 { color: #116655; }
+.rdfreitas-color-7 { color: #0011BB; }
+.rdfreitas-color-8 { color: #001166; }
+
+.rdfreitas-background-5 { background-color: #33BBAA; }
+.rdfreitas-background-6 { background-color: #116655; }
+.rdfreitas-background-7 { background-color: #0011BB; }
+.rdfreitas-background-8 { background-color: #001166; }
+
+/* CORES SUPORTES */
+.rdfreitas-support-color-5 { color: #111100; }
+.rdfreitas-support-color-6 { color: #332222; }
+.rdfreitas-support-color-7 { color: #DDCCAA; }
+.rdfreitas-support-color-8 { color: #EEEECC; }
+
+.rdfreitas-support-background-5 { background-color: #111100; }
+.rdfreitas-support-background-6 { background-color: #332222; }
+.rdfreitas-support-background-7 { background-color: #DDCCAA; }
+.rdfreitas-support-background-8 { background-color: #EEEECC; }
+
 .rdfreitas-img-90 { width:90%; }
+.rdfreitas-img-100 { width:100%; }
 
 .rdfreitas-destaque {
   font-weight: 500;

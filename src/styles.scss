@@ -16,6 +16,8 @@ body {
 @include margin('.rdfreitas-margin-bottom-', 'margin-bottom');
 @include margin('.rdfreitas-margin-right-', 'margin-right');
 
+@include margin-negativa('.rdfreitas-mt-neg-', 'margin-top', 40);
+
 @include padding('.rdfreitas-padding-top-', 'padding-top');
 @include padding('.rdfreitas-padding-left-', 'padding-left');
 @include padding('.rdfreitas-padding-bottom-', 'padding-bottom');
@@ -26,41 +28,17 @@ body {
 @include border('.rdfreitas-border-left-', 'border-left', '#EEBB22');
 @include border('.rdfreitas-border-right-', 'border-right', '#EEBB22');
 
+@include height('.rdfreitas-height-', 'height');
+
 /*FONTES COM VARIAÇÃO DE TAMANHO DE 8 A 120*/
 @include font('.rdfreitas-font-', 'font-size');
 
 
 @include image('.rdfreitas-img-', 'width');
 
-.rdfreitas-tetxt-normal { font-size: 12px; }
-.rdfreitas-text-head-1 { font-size: 36px; }
-.rdfreitas-tetxt-button { font-size: 12px; }
-
-.rdfreitas-intro,
-.rdfreitas-presentation,
-.rdfreitas-destaque { padding: 120px 0;}
-.rdfreitas-intro img { margin-top: -40px;}
-
 .rdfreitas-btn-small { width: 80px; font-family: 'Chakra Petch', sans-serif; }
 .rdfreitas-btn-medium { width: 120px; font-family: 'Chakra Petch', sans-serif; }
 .rdfreitas-btn-large { width: 160px; font-family: 'Chakra Petch', sans-serif; }
-
-.rdfreitas-skills span { margin: 4px; }
-
-.rdfreitas-formacao-box { width: 200px; }
-.rdfreitas-formacao-box h3 { height: 90px; }
-.flex-container {
-display: flex;
-flex-direction: row;
-}
-
-.flex-container > .flex-item {
-flex: auto;
-}
-
-.flex-container > .raw-item {
-width: 5rem;
-}
 
 .#{$prefix}{
     &-icon {
@@ -110,24 +88,6 @@ width: 5rem;
 
 }
 
-.rdfreitas-img-90 { width:90%; }
-.rdfreitas-img-80 { width:80%; }
-.rdfreitas-img-70 { width:70%; }
-.rdfreitas-img-60 { width:60%; }
-.rdfreitas-img-50 { width:50%; }
-.rdfreitas-img-40 { width:40%; }
-.rdfreitas-img-30 { width:30%; }
-.rdfreitas-img-20 { width:20%; }
-.rdfreitas-img-10 { width:10%; }
-
-.rdfreitas-tetxt-normal { font-size: 12px; }
-.rdfreitas-text-head-1 { font-size: 36px; }
-.rdfreitas-tetxt-button { font-size: 12px; }
-
-.rdfreitas-intro,
-.rdfreitas-presentation,
-.rdfreitas-destaque { padding: 120px 0;}
-.rdfreitas-intro img { margin-top: -40px;}
 
 .rdfreitas-btn-small { width: 80px; font-family: 'Chakra Petch', sans-serif; }
 .rdfreitas-btn-medium { width: 120px; font-family: 'Chakra Petch', sans-serif; }
@@ -137,15 +97,3 @@ width: 5rem;
 
 .rdfreitas-formacao-box { width: 200px; }
 .rdfreitas-formacao-box h3 { height: 90px; }
-.flex-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.flex-container > .flex-item {
-  flex: auto;
-}
-
-.flex-container > .raw-item {
-  width: 5rem;
-}

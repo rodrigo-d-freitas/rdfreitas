@@ -1,18 +1,18 @@
-<div class="grid rdfreitas-margin-top-1x">
-    <div class="g-col-6">
-        <h5>{{portfolio.titulo}}</h5>
+<div class="grid rdfreitas-padding-bottom-40 rdfreitas-padding-top-40">
+    <div class="g-col-9">
+        <h5 class="rdfreitas-font-bitter rdfreitas-font-24 fw-bolder">{{portfolio.titulo}}</h5>
     </div>
-    <div class="g-col-6 text-end">
+    <div class="g-col-3 text-end">
         <h5>{{portfolio.ano}}</h5>
     </div>
     <div class="g-col-12">
-        <span class="rdfreitas-deco-retangulo rdfreitas-deco-retangulo-100 rdfreitas-margin-left-0 rdfreitas-height-1x"></span>
+        <span class="rdfreitas-deco-retangulo rdfreitas-deco-retangulo-100 rdfreitas-margin-left-0 rdfreitas-height-4"></span>
     </div>
     <div class="g-col-6">
         <p>{{portfolio.description}}</p>
         <a [routerLink]="['visualizar/', portfolio.id]" class="btn btn-success">Detalhes</a>
     </div>
-    <div class="g-col-6 rdfreitas-skills">
-        <span class="btn btn-light" *ngFor="let skill of portfolio.skills">{{skill}}</span>
+    <div class="g-col-6 rdfreitas-skills d-flex flex-row justify-content-end flex-wrap">
+        <span class="btn btn-light d-flex align-items-center rdfreitas-background-165 rdfreitas-support-color-eec text-uppercase" *ngFor="let skill of portfolio.skills">{{skill}}</span>
     </div>
 </div>

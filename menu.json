@@ -16,9 +16,9 @@
    "portfolio": [
       {
          "id" : 1,
-         "titulo" : "CRDantas",
+         "titulo" : "CRDantas advogados",
          "ano" : "2023",
-         "description" : "Inclusão digital do escritório de advocacia",
+         "description" : "Website desenvolvido  visando posicionamento digital do escritório de advocacia",
          "skills" : ["HTML", "CSS", "UI Design", "Angular", "Wordpress", "Wordpress Themes"]
       },
       {
@@ -30,7 +30,7 @@
       },
       {
          "id" : 3,
-         "titulo" : "Site do Rodrigo Freitas",
+         "titulo" : "Rodrigo Freitas - Dev Angular - Designer UI",
          "ano" : "2023",
          "description" : "Redesign do site, utilização do Angular para fins de estudos e implementação",
          "skills" : ["HTML", "CSS", "UI Design", "UX Design", "Angular", "REST api", "Bootstrap 4"]

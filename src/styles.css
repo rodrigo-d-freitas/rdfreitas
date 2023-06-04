@@ -2,82 +2,6 @@
 /**
   rdfreita's styles
 **/
-.rdfreitas-color-641 {
-  color: #664411;
-}
-.rdfreitas-color-a73 {
-  color: #AA7733;
-}
-.rdfreitas-color-b94 {
-  color: #BB9944;
-}
-.rdfreitas-color-eb2 {
-  color: #EEBB22;
-}
-.rdfreitas-color-3ba {
-  color: #33BBAA;
-}
-.rdfreitas-color-165 {
-  color: #116655;
-}
-.rdfreitas-color-01b {
-  color: #0011BB;
-}
-.rdfreitas-color-016 {
-  color: #001166;
-}
-
-.rdfreitas-background-641 {
-  background-color: #664411;
-}
-.rdfreitas-background-a73 {
-  background-color: #AA7733;
-}
-.rdfreitas-background-b94 {
-  background-color: #BB9944;
-}
-.rdfreitas-background-eb2 {
-  background-color: #EEBB22;
-}
-.rdfreitas-background-3ba {
-  background-color: #33BBAA;
-}
-.rdfreitas-background-165 {
-  background-color: #116655;
-}
-.rdfreitas-background-01b {
-  background-color: #0011BB;
-}
-.rdfreitas-background-016 {
-  background-color: #001166;
-}
-
-.rdfreitas-support-color-110 {
-  color: #111100;
-}
-.rdfreitas-support-color-322 {
-  color: #332222;
-}
-.rdfreitas-support-color-dca {
-  color: #DDCCAA;
-}
-.rdfreitas-support-color-eec {
-  color: #EEEECC;
-}
-
-.rdfreitas-support-background-110 {
-  background-color: #111100;
-}
-.rdfreitas-support-background-322 {
-  background-color: #332222;
-}
-.rdfreitas-support-background-dca {
-  background-color: #DDCCAA;
-}
-.rdfreitas-support-background-eec {
-  background-color: #EEEECC;
-}
-
 body {
   font-family: "Bitter", serif;
 }
@@ -1703,13 +1627,109 @@ body {
   width: 100%;
 }
 
-.rdfreitas-link-eebb22:hover {
+.rdfreitas-link-EEBB22:hover {
   text-decoration: underline !important;
-  color: #eebb22 !important;
+  color: #EEBB22 !important;
 }
-.rdfreitas-link-eebb22.active {
+.rdfreitas-link-EEBB22.active {
   font-weight: 800;
-  color: #eebb22 !important;
+  color: #EEBB22 !important;
+}
+
+.rdfreitas-color-664411 {
+  color: #664411;
+}
+
+.rdfreitas-color-AA7733 {
+  color: #AA7733;
+}
+
+.rdfreitas-color-BB9944 {
+  color: #BB9944;
+}
+
+.rdfreitas-color-EEBB22 {
+  color: #EEBB22;
+}
+
+.rdfreitas-color-33BBAA {
+  color: #33BBAA;
+}
+
+.rdfreitas-color-116655 {
+  color: #116655;
+}
+
+.rdfreitas-color-0011BB {
+  color: #0011BB;
+}
+
+.rdfreitas-color-001166 {
+  color: #001166;
+}
+
+.rdfreitas-color-111100 {
+  color: #111100;
+}
+
+.rdfreitas-color-332222 {
+  color: #332222;
+}
+
+.rdfreitas-color-DDCCAA {
+  color: #DDCCAA;
+}
+
+.rdfreitas-color-EEEECC {
+  color: #EEEECC;
+}
+
+.rdfreitas-background-664411 {
+  background: #664411;
+}
+
+.rdfreitas-background-AA7733 {
+  background: #AA7733;
+}
+
+.rdfreitas-background-BB9944 {
+  background: #BB9944;
+}
+
+.rdfreitas-background-EEBB22 {
+  background: #EEBB22;
+}
+
+.rdfreitas-background-33BBAA {
+  background: #33BBAA;
+}
+
+.rdfreitas-background-116655 {
+  background: #116655;
+}
+
+.rdfreitas-background-0011BB {
+  background: #0011BB;
+}
+
+.rdfreitas-background-001166 {
+  background: #001166;
+}
+
+.rdfreitas-background-111100 {
+  background: #111100;
+}
+
+.rdfreitas-background-332222 {
+  background: #332222;
+}
+
+.rdfreitas-background-DDCCAA {
+  background: #DDCCAA;
+}
+
+.rdfreitas-background-EEEECC {
+  background: #EEEECC;
 }
 
 .rdfreitas-btn-small {

@@ -41,11 +41,38 @@ body {
 
 @include image('.rdfreitas-img-', 'width');
 
-@include link('.rdfreitas-link-', 'eebb22');
+@include link('.rdfreitas-link-', 'EEBB22');
+
+@include colors('.rdfreitas-', 'color', '664411');
+@include colors('.rdfreitas-', 'color', 'AA7733');
+@include colors('.rdfreitas-', 'color', 'BB9944');
+@include colors('.rdfreitas-', 'color', 'EEBB22');
+@include colors('.rdfreitas-', 'color', '33BBAA');
+@include colors('.rdfreitas-', 'color', '116655');
+@include colors('.rdfreitas-', 'color', '0011BB');
+@include colors('.rdfreitas-', 'color', '001166');
+@include colors('.rdfreitas-', 'color', '111100');
+@include colors('.rdfreitas-', 'color', '332222');
+@include colors('.rdfreitas-', 'color', 'DDCCAA');
+@include colors('.rdfreitas-', 'color', 'EEEECC');
+
+@include colors('.rdfreitas-', 'background', '664411');
+@include colors('.rdfreitas-', 'background', 'AA7733');
+@include colors('.rdfreitas-', 'background', 'BB9944');
+@include colors('.rdfreitas-', 'background', 'EEBB22');
+@include colors('.rdfreitas-', 'background', '33BBAA');
+@include colors('.rdfreitas-', 'background', '116655');
+@include colors('.rdfreitas-', 'background', '0011BB');
+@include colors('.rdfreitas-', 'background', '001166');
+@include colors('.rdfreitas-', 'background', '111100');
+@include colors('.rdfreitas-', 'background', '332222');
+@include colors('.rdfreitas-', 'background', 'DDCCAA');
+@include colors('.rdfreitas-', 'background', 'EEEECC');
 
 .rdfreitas-btn-small { width: 80px; font-family: 'Chakra Petch', sans-serif; }
 .rdfreitas-btn-medium { width: 120px; font-family: 'Chakra Petch', sans-serif; }
 .rdfreitas-btn-large { width: 160px; font-family: 'Chakra Petch', sans-serif; }
+
 
 
 .#{$prefix}{

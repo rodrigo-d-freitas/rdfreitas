@@ -7,6 +7,7 @@ import { PortfolioViewComponent } from "../portfolio-view/portfolio-view.compone
 import { RouterOutlet } from "@angular/router";
 import { PortfolioAppComponent } from "./portfolio.app.component";
 import { RdfreitasService } from "src/app/services/rdfreitasService";
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
     declarations: [
@@ -18,7 +19,8 @@ import { RdfreitasService } from "src/app/services/rdfreitasService";
     imports: [
         CommonModule,
         RouterOutlet,
-        PortfolioRoutingModule
+        PortfolioRoutingModule,
+        HttpClientModule
     ],
     providers : [
         RdfreitasService

@@ -11,12 +11,14 @@ import { RdfreitasService } from './services/rdfreitasService';
 import { HttpClientModule } from '@angular/common/http';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { HeaderModule } from './header/header.module';
+import { UnitTestsComponent } from './curso/unit-tests/unit-tests.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    UnitTestsComponent
   ],
   imports: [
     BrowserModule,

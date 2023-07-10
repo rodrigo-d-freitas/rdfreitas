@@ -26,10 +26,6 @@ export class RdfreitasService {
 
     itensPortfolio() : Observable<Portfolio[]> {
         return this.http.get<Portfolio[]>(this.UrlServiceV1 + "portfolio");
-    }
-
-    
-
-    
+    }   
 
 }

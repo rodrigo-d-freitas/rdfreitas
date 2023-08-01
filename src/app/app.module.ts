@@ -6,19 +6,17 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { rootRouterConfig } from './app.routes';
-import { APP_BASE_HREF } from '@angular/common';
 import { RdfreitasService } from './services/rdfreitasService';
 import { HttpClientModule } from '@angular/common/http';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { HeaderModule } from './header/header.module';
-import { UnitTestsComponent } from './curso/unit-tests/unit-tests.component';
+import { HomeModule } from './pages/home/home.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    NotFoundComponent,
-    UnitTestsComponent
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

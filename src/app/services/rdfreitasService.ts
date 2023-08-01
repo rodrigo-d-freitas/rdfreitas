@@ -12,7 +12,7 @@ export class RdfreitasService {
 
     constructor(private http: HttpClient) {}
 
-    protected UrlServiceV1: string = 'http://localhost:3000/';
+    public UrlServiceV1: string = 'http://localhost:3000/';
 
     obterPorId(id: number) : Observable<Portfolio> {
         return this.itensPortfolio()?.pipe(

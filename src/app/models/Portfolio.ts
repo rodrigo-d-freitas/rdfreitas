@@ -4,4 +4,5 @@ export class Portfolio {
     ano! : string;
     description! : string;
     skills: [''];
+    details: String
 }

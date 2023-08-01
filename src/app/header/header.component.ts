@@ -21,7 +21,5 @@ export class HeaderComponent implements OnInit {
         },
         error => console.log(error)
       );
-
-      console.log(this.itensMenu.length);
   }
 }

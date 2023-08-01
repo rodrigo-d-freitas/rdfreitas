@@ -15,25 +15,29 @@
    ],
    "portfolio": [
       {
-         "id" : 1,
-         "titulo" : "CRDantas advogados",
-         "ano" : "2023",
-         "description" : "Website desenvolvido  visando posicionamento digital do escritório de advocacia",
-         "skills" : ["HTML", "CSS", "UI Design", "Angular", "Wordpress", "Wordpress Themes"]
-      },
+         "id": 1,
+         "titulo": "CRDantas advogados",
+         "ano": "2023",
+         "description": "Desenvolvimento de Website com foco estratégico no fortalecimento da presença digital do conceituado escritório de advocacia.",
+         "skills": ["HTML", "CSS", "UI Design", "Angular", "Wordpress", "Wordpress Themes"],
+         "details": "Nosso trabalho consistiu em criar um website de última geração, projetado meticulosamente para potencializar a visibilidade e o posicionamento do escritório no cenário digital. Com ênfase na excelência visual e na usabilidade, cada detalhe foi cuidadosamente pensado para oferecer aos visitantes uma experiência envolvente e informativa.\nNossa abordagem foi pautada em princípios de design inovadores e nas mais recentes tendências tecnológicas, garantindo que o site não apenas transmitisse uma imagem profissional e confiável, mas também se adaptasse perfeitamente a dispositivos móveis, aumentando sua acessibilidade.\nAlém disso, implementamos estratégias de otimização para mecanismos de busca (SEO) para garantir que o website seja facilmente encontrado por potenciais clientes, aumentando significativamente a geração de leads qualificados.\nAo longo do projeto, trabalhamos em estreita colaboração com a equipe do escritório, compreendendo suas necessidades específicas e alinhando cada aspecto do website à sua identidade corporativa e valores institucionais.\nO resultado é um website de classe mundial que reflete a essência e a reputação do escritório, proporcionando uma presença online sólida e atraente para clientes atuais e futuros.\nEstamos orgulhosos de ter contribuído para o sucesso contínuo do escritório de advocacia por meio de nossa expertise em desenvolvimento web e estratégias digitais. E continuamos comprometidos em oferecer soluções inovadoras e personalizadas para aprimorar ainda mais sua posição de destaque no mercado jurídico."
+       },
+       
       {
          "id" : 2,
          "titulo" : "Premag",
          "ano" : "2023",
-         "description" : "Redesign do site",
-         "skills" : ["HTML", "CSS", "UI Design", "UX Design", "Angular"]
+         "description" : "Redesign de Website para a renomada empresa Premag, com foco em elevar sua presença digital e aprimorar a experiência do usuário.",
+         "skills" : ["HTML", "CSS", "UI Design", "UX Design", "Angular"],
+         "details" : "O projeto consistiu em revitalizar completamente o website da Premag, aplicando uma abordagem centrada no usuário para oferecer uma interface moderna, intuitiva e esteticamente agradável. O objetivo era proporcionar aos visitantes uma jornada on-line mais envolvente e facilitar o acesso a informações essenciais sobre a empresa e seus serviços.\nPara atingir esse objetivo, adotamos práticas de design de vanguarda, implementando um layout responsivo que se adapta perfeitamente a dispositivos móveis e computadores, garantindo a acessibilidade em todas as plataformas.\nAlém da parte visual, aprimoramos significativamente a estrutura de navegação e organização do conteúdo, tornando mais simples e eficiente a busca por informações relevantes. Também otimizamos o desempenho do site, resultando em tempos de carregamento mais rápidos e uma experiência mais fluída para os usuários.\nOutra etapa crucial do projeto foi a otimização para mecanismos de busca (SEO), assegurando que o site seja mais facilmente encontrado por clientes em potencial, aumentando a visibilidade da Premag nos resultados de pesquisa.\nTrabalhamos em estreita colaboração com a equipe da Premag, compreendendo suas necessidades e alinhando cada aspecto do redesign à identidade e visão da empresa.\nO resultado é um website completamente renovado que reflete a excelência e a profissionalidade da Premag, destacando-se no mercado e fortalecendo sua posição como líder em seu setor.\nEstamos orgulhosos de termos contribuído para o sucesso contínuo da Premag por meio de nosso expertise em redesign de websites e estratégias digitais. Continuamos comprometidos em fornecer soluções sob medida que impulsionem o crescimento e alcance da empresa no ambiente digital."
       },
       {
          "id" : 3,
          "titulo" : "Rodrigo Freitas - Dev Angular - Designer UI",
          "ano" : "2023",
-         "description" : "Redesign do site, utilização do Angular para fins de estudos e implementação",
-         "skills" : ["HTML", "CSS", "UI Design", "UX Design", "Angular", "REST api", "Bootstrap 4"]
+         "description" : "Participação ativa no Redesign do website, empregando a tecnologia Angular em um projeto com foco educacional e prático.",
+         "skills" : ["HTML", "CSS", "UI Design", "UX Design", "Angular", "REST api", "Bootstrap 4"],
+         "details" : "No contexto desse projeto, abraçamos o desafio de revigorar o website, aplicando os conceitos e técnicas aprendidas no estudo do framework Angular. Nosso objetivo era aprimorar o desempenho do site e proporcionar aos usuários uma experiência de usuário mais fluida e interativa.\n Utilizando as mais recentes práticas de desenvolvimento, desenvolvemos uma arquitetura robusta e escalável, otimizando a organização do código-fonte para facilitar a manutenção futura e a extensibilidade do projeto.\nO uso do Angular trouxe benefícios significativos ao projeto, permitindo a criação de uma interface dinâmica e responsiva, além de facilitar a integração de recursos avançados, como animações e interações em tempo real.\nAlém do foco técnico, o trabalho em equipe foi um elemento crucial nesse projeto. Colaboramos estreitamente com outros desenvolvedores, compartilhando conhecimentos, revisando códigos e trocando ideias para encontrar as melhores soluções para os desafios encontrados.\nPor meio dessa experiência, expandimos nosso conhecimento em desenvolvimento web e aprofundamos nossa expertise em Angular, o que nos permitiu aplicar essas habilidades em outros projetos futuros.\nO resultado final foi um website completamente repaginado, enriquecido com interatividade e funcionalidades inovadoras, destacando-se pela eficiência e modernidade da implementação Angular.\nEstamos entusiasmados com o crescimento contínuo de nossas habilidades e estamos ansiosos para aplicar o aprendizado adquirido em futuros projetos, impulsionando o desenvolvimento de soluções cada vez mais avançadas e impactantes."
       }
    ]
 

@@ -27,6 +27,6 @@ export class PortfolioViewComponent implements OnInit {
   }
 
   retornar() {
-    this.router.navigate(['/portfolio']);
+    this.router.navigate(['/experiencia']);
   }
 }

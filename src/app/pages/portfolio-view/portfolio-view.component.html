@@ -1,4 +1,4 @@
-<div class="rdfreitas-margin-top-1x">
+<div class="container rdfreitas-margin-top-1x">
     <div class="g-col-6">
         <h5> {{(portfolio | async).titulo}}</h5>
     </div>
@@ -9,7 +9,7 @@
         <span class="rdfreitas-deco-retangulo rdfreitas-deco-retangulo-100 rdfreitas-margin-left-0 rdfreitas-height-1x"></span>
     </div>
     <div *ngFor="let linha of (portfolio | async).details.split('\n')">
-        <p >{{linha}}</p>
+        <p>{{linha}}</p>
     </div>
     
     <div class="g-col-6 rdfreitas-skills">

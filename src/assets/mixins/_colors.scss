@@ -1,17 +1,17 @@
 $string: '#';
 @mixin link($className, $color) {
     #{$className + $color} { 
+
+        color: #{$string + $color} !important;
         
         &:hover {
             text-decoration: underline !important;
             color: #{$string + $color} !important;
-
         }
 
         &.active {
             font-weight: 800;
             color: #{$string + $color} !important;
-
         }
     }
    

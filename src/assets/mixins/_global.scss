@@ -1,0 +1,19 @@
+@import "variables";
+
+:root {
+    /* Set the background of the entire app */
+    --rdf-background-color: #fff;
+
+    /* Set the font family of the entire app */
+    --rdf-font-family-body: var(--font-family-serif);
+    --rdf-font-family-title: var(--font-family-sans-serif);
+
+    --rdf-color-primary: var(--color-brand-primary-regular);
+    --rdf-color-secondary: var(--color-brand-secondary-regular);
+    --rdf-color-success: var(--color-contextual-success-regular);
+    --rdf-color-warning: var(--color-contextual-warning-regular);
+    --rdf-color-danger: var(--color-contextual-danger-regular);
+    --rdf-color-base: var(--color-neutral-light-1);
+    --rdf-color-light: var(--color-neutral-light-5);
+    --rdf-text-color: var(--color-neutral-regular); 
+}

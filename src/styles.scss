@@ -1,6 +1,7 @@
 /**
   rdfreita's styles
 **/
+@import "assets/mixins/global";
 @import "assets/mixins/layout";
 @import "assets/mixins/fonts";
 @import "assets/mixins/colors";
@@ -8,7 +9,37 @@
 $prefix : rdfreitas;
 
 body {
-  font-family: 'playfair', serif;
+  font-family: var(--rdf-font-family-body);
+}
+
+.page__home{
+    &-intro{
+        &__deco-retangulo{}
+        &__subtitle{
+            font-family: var(--rdf-font-family-title);
+            color: var(--rdf-color-primary);
+        }
+    }
+    &-presentation{
+        &__text{
+            font-family: var(--rdf-font-family-body);
+            color: var(--rdf-color-primary);
+        }
+        &__image{}
+
+    }
+    &-destaque{
+        &__title{
+            font-family: var(--rdf-font-family-title);
+            color: var(--rdf-color-primary);
+        }
+        &__text{
+            font-family: var(--rdf-font-family-body);
+            color: var(--rdf-color-primary);
+        }
+        &__image{}
+        &__button{}
+    }
 }
 
 @include margin('.rdfreitas-margin-top-', 'margin-top');
@@ -69,12 +100,6 @@ body {
 @include colors('.rdfreitas-', 'background', 'DDCCAA');
 @include colors('.rdfreitas-', 'background', 'EEEECC');
 
-.rdfreitas-btn-small { width: 80px; font-family: 'Kanit', sans-serif; }
-.rdfreitas-btn-medium { width: 120px; font-family: 'Kanit', sans-serif; }
-.rdfreitas-btn-large { width: 160px; font-family: 'Kanit', sans-serif; }
-
-
-
 .#{$prefix}{
     &-icon {
         width: 56px;
@@ -83,7 +108,7 @@ body {
     }
 
     &-title {
-        font-family: poppins;
+        font-family: var(--rdf-font-family-sans-serif);
         font-weight: bold;
         font-size: 55px;
     }
@@ -92,7 +117,7 @@ body {
         font-size: 68px;
         display: block;
         word-break: break-all;
-        font-family: 'Kanit', sans-serif;
+        font-family: var(--rdf-font-family-sans-serif);
         font-weight: bold;
         text-transform: uppercase;
         margin: 0;
@@ -123,9 +148,9 @@ body {
 }
 
 
-.rdfreitas-btn-small { width: 80px; font-family: 'Chakra Petch', sans-serif; }
-.rdfreitas-btn-medium { width: 120px; font-family: 'Chakra Petch', sans-serif; }
-.rdfreitas-btn-large { width: 160px; font-family: 'Chakra Petch', sans-serif; }
+.rdfreitas-btn-small { width: 80px; font-family: var(--rdf-font-family-sans-serif); }
+.rdfreitas-btn-medium { width: 120px; font-family: var(--rdf-font-family-sans-serif); }
+.rdfreitas-btn-large { width: 160px; font-family: var(--rdf-font-family-sans-serif); }
 
 .rdfreitas-skills span { margin: 4px; }
 

@@ -2,18 +2,25 @@
 
 :root {
     /* Set the background of the entire app */
-    --rdf-background-color: #fff;
+    --rdf-background-color: var(--color-white);
 
     /* Set the font family of the entire app */
     --rdf-font-family-body: var(--font-family-serif);
     --rdf-font-family-title: var(--font-family-sans-serif);
 
     --rdf-color-primary: var(--color-brand-primary-regular);
-    --rdf-color-secondary: var(--color-brand-secondary-regular);
     --rdf-color-success: var(--color-contextual-success-regular);
     --rdf-color-warning: var(--color-contextual-warning-regular);
     --rdf-color-danger: var(--color-contextual-danger-regular);
-    --rdf-color-base: var(--color-neutral-light-1);
-    --rdf-color-light: var(--color-neutral-light-5);
-    --rdf-text-color: var(--color-neutral-regular); 
+    --rdf-color-light: var(--color-neutral-light);
+    --rdf-text-color: var(--color-neutral-dark); 
+
+    --rdf-font-size-title-1: var(--font-size-biggest);
+    --rdf-font-size-title-2: var(--font-size-bigger);
+    --rdf-font-size-title-3: var(--font-size-big);
+    --rdf-font-size-title-xx: var(--font-size-xx-big);
+    --rdf-font-size-text-1: var(--font-size-regular);
+    --rdf-font-size-text-2: var(--font-size-small);
+    --rdf-font-size-text-3: var(--font-size-smaller);
+    --rdf-font-size-text-4: var(--font-size-smallest);
 }

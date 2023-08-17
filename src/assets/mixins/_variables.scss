@@ -1,9 +1,44 @@
 :root {
 
-    /* Definindo as variáveis de fonte */
     --font-family-serif: 'Playfair Display', serif;
     --font-family-sans-serif: 'kanit', sans-serif;
     
-    --color-brand-primary-regular: #110;
+    // Cor principal
+    --color-brand-primary-regular: #001133;
+
+    // Cores análogas
+    --color-analogous-1: #004477;
+    --color-analogous-2: #66AACC;
+    --color-analogous-3: #88BBBB;
+
+    // Cores neutras
+    --color-neutral-dark: #333333;
+    --color-neutral-light: #EFEFEF;
+    --color-white: #FFFFFF;
+
+    // Cores de contraste para botões ou elementos destacados
+    --color-contrast-orange: #FF6B35;
+    --color-contrast-yellow: #FFDC00;
+    --color-contrast-blue: #6CA6CD;
+    --color-contrast-white: #FFFFFF;
+
+
+    --font-size-xx-big: 96px;
+    --font-size-biggest: 64px;
+    --font-size-bigger: 48px;
+    --font-size-big: 36px;
+    --font-size-regular: 20px;
+    --font-size-small: 16px;
+    --font-size-smaller: 12px;
+    --font-size-smallest: 10px;
+
+    --display-block: block;
+    --display-flex: flex;
+    --display-inline: inline-block;
+
+    --line-height-small: 1;
+    --line-height-regular: 1.25;
+    --line-height-big: 1.5;
+    
 
 }

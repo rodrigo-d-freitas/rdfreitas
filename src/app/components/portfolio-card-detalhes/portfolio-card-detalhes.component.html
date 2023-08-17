@@ -1,18 +1,18 @@
-<div class="grid rdfreitas-padding-bottom-40 rdfreitas-padding-top-40">
+<div class="grid card__portfolio">
     <div class="g-col-9">
-        <h5 class="rdfreitas-font-playfair rdfreitas-font-24 fw-bolder rdfreitas-color-111100">{{portfolio.titulo}}</h5>
+        <h5 class="fw-bolder card__portfolio-title__project">{{portfolio.titulo}}</h5>
     </div>
-    <div class="g-col-3 text-end rdfreitas-color-111100">
+    <div class="g-col-3 text-end card__portfolio-title__year">
         <h5>{{portfolio.ano}}</h5>
     </div>
     <div class="g-col-12">
-        <span class="rdfreitas-deco-retangulo rdfreitas-deco-retangulo-100 rdfreitas-margin-left-0 rdfreitas-height-4 rdfreitas-background-111100"></span>
+        <span class="card__portfolio-deco-retangulo"></span>
     </div>
     <div class="g-col-6">
-        <p class="rdfreitas-color-111100">{{portfolio.description}}</p>
-        <a [routerLink]="['visualizar/', portfolio.id]" class="btn btn-success">Detalhes</a>
+        <p class="card__portfolio-description">{{portfolio.description}}</p>
+        <a [routerLink]="['visualizar/', portfolio.id]" class="btn btn__main text-uppercase">Detalhes</a>
     </div>
-    <div class="g-col-6 rdfreitas-skills d-flex flex-row justify-content-end flex-wrap">
-        <span class="btn btn-light d-flex align-items-center rdfreitas-background-664411 rdfreitas-color-EEEECC text-uppercase" *ngFor="let skill of portfolio.skills">{{skill}}</span>
+    <div class="g-col-6 d-flex flex-row justify-content-end flex-wrap">
+        <span class="btn btn-light d-flex align-items-center text-uppercase card__portfolio-skills" *ngFor="let skill of portfolio.skills">{{skill}}</span>
     </div>
 </div>

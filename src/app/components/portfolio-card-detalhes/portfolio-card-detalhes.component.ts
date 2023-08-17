@@ -4,8 +4,7 @@ import { Portfolio } from 'src/app/models/Portfolio';
 @Component({
   selector: 'app-portfolio-card-detalhes',
   templateUrl: './portfolio-card-detalhes.component.html',
-  styles: [
-  ]
+  styleUrls: ['./portfolio-card-detalhes.component.scss']
 })
 export class PortfolioCardDetalhesComponent {
 
